@@ -35,7 +35,7 @@ CSS
 Reset global de estilos por defecto Bootstrap. En teoría los reset de Bootstrap son
 ""más"" mejores que los existentes como el normalize.css
 
-
+1. Depurar -> dependencias en el archivo _variables.scss (font, table, etc)
 
 
 
