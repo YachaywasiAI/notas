@@ -37,7 +37,9 @@ Reset global de estilos por defecto Bootstrap. En teoría los reset de Bootstrap
 
 1. Depurar -> dependencias en el archivo _variables.scss (font, table, etc)
 
-
-
+Media queries con sass ref:
+https://github.com/Necromancerx/media-queries-scss-mixins
+Media queries dimensiones con Bootstrap (decimales para mejorar la precisión en high-dpi)
+https://getbootstrap.com/docs/4.1/layout/overview/
 
 
