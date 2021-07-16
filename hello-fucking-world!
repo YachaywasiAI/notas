@@ -1,0 +1,42 @@
+===========================================================================
+===========================================================================
+===========================================================================
+REACT
+
+HOOKS 
+
+useState(initialState) {
+    return useReducer(basicStateReducer, initialState)
+}
+
+Si el parámetro es del tipo "función", la actualización sucede al tiro y no se necesita
+esperar al siguiente renderizado.  
+
+Tras bambalinas lo que sucede es que se invoca un "reducer"
+
+function basicStateReducer(state, action) {
+  return typeof action === "function" ? action(state) : action;
+}
+
+###########################################################################
+
+Buenas prácticas:
+Como estructurar tu aplicación
+
+https://www.youtube.com/watch?v=UfoM49p3WCw
+
+
+===========================================================================
+===========================================================================
+===========================================================================
+
+CSS 
+
+Reset global de estilos por defecto
+
+https://scotch.io/tutorials/a-look-at-bootstrap-4s-new-reset-rebootcss 
+
+
+
+
+
